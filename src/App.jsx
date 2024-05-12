@@ -6,6 +6,8 @@ import About from "./pages/about/About";
 import Contact from "./pages/contact/Conatct";
 import Product from "./pages/product/Product";
 import Brand from "./pages/brands/Brand";
+import "swiper/css";
+import "swiper/css/pagination";
 
 function App() {
   return (
