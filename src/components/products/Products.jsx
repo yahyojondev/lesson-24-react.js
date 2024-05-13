@@ -7,7 +7,7 @@ const Products = () => {
   const [data, setData] = useState([]);
   const [count, setCount] = useState(6);
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
     axios
       .get(`${API_URL}?limit=${count}`)
       .then((res) => setData(res.data.products))
