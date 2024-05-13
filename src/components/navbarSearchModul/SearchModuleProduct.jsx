@@ -12,7 +12,7 @@ const SearchModuleProduct = ({ data }) => {
   ));
   return (
     <div className="searching__modul">
-      {data ? <h3>ma'lumot yo'q</h3> : <></>}
+      {/* {data ? <h3>ma'lumot yo'q</h3> : <></>} */}
       {serachingItem}
     </div>
   );
