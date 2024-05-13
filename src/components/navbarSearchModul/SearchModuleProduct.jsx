@@ -12,7 +12,7 @@ const SearchModuleProduct = ({ data }) => {
   ));
   return (
     <div className="searching__modul">
-      {/* {!data.length ? <h3>ma'lumot topilmadi</h3> : <></>} */}
+      {!data.length ? <h3>ma'lumot topilmadi</h3> : <></>}
       {serachingItem}
     </div>
   );
